@@ -18,7 +18,9 @@ export function ImageGallery() {
                 </div>
                 <div className="h-70 w-70 flex justify-center items-center">
                     <img src="./video-thumbnail-img.png" />
-                    <div className="relative z-20 bottom-5 right-40"> 
+                    <div className="relative z-20 bottom-5 right-40 hover:cursor-pointer" 
+                        onClick={() => window.open("https://www.youtube.com/watch?v=wQZQADpna9Q&t=58s")}
+                    > 
                         <FaPlayCircle color="black" opacity={0.7} size={54} />
                     </div>
                 </div>

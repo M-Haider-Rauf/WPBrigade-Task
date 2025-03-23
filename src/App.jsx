@@ -10,7 +10,7 @@ import { Banner } from './Sections/Banner';
 
 function App() {
   return(
-    <div className="pt-10">
+    <div className="flex flex-col pt-10">
       <Banner />
       <LogoBar />
       <NavBar />
